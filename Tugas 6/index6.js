@@ -1,5 +1,23 @@
 // Soal 1
-
+class Persegi {
+    constructor(sisi){
+        this.sisi = sisi;
+    };
+    perkalian(){
+        return this.sisi * this.sisi;
+    }
+    pertambahan(){
+        return this.sisi + this.sisi;
+    }
+    pengurangan(){
+        return this.sisi - this.sisi;
+    }
+    pembagian(){
+        return this.sisi / this.sisi;
+    }
+}
+const persegi = new Persegi(69)
+console.log(persegi.pertambahan());
 
 
 // Soal 2
